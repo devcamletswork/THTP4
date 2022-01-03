@@ -398,25 +398,36 @@ a {
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  background-color: #c4f4e9;
+}
 
 .error {
   background-color: #e4757a;
+}
+.error:hover {
+  background-color: #f9e0e1;
 }
 
 .info {
   background-color: #927bc1;
 }
+.info:hover {
+  background-color: #dad2ea;
+}
 
 .success {
   background-color: #63cc82;
+}
+.success:hover {
+  background-color: #c3ebcf;
 }
 
 .warning {
   background-color: #fd7856;
 }
-
-button:hover {
-  background-color: #cef5fe;
+.warning:hover {
+  background-color: #feddd4;
 }
 
 /* ============================================= */
@@ -543,7 +554,7 @@ button:hover {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: (max-width: 1024)) {
+@media (min-width: 768px) {
   .container {
     max-width: 1400px;
     display: block;

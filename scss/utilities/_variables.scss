@@ -1,41 +1,34 @@
 // Descriptive color variables
 
 $white          : #fff;
-$black          : #000;
-$grey           : #878787;
-$regent-st-blue : #add8e6;
-$river-bed      : #48525c;
-$yellow-orange  : #ffa949;
+$success          : #63cc82;
+$error           : #e4757a;
+$info            :#927bc1;
+$warning         :#fd7856;
 $button-background-color: #51ddfc;
-
+$secondary-color :#7ee6fd;
 // Functional color variables
 
 $color-prim     :#58e1c1;
-$color-sec      :$river-bed;
 
-$color-text-light   :$white;
-$color-text-base    :$grey;
-$color-text-dark    :$river-bed;
-
-$color-border-light   : lighten($grey, 35%);
-$color-border-dark    : $yellow-orange;
-
-
-
-$color-link-default   : $yellow-orange;
-$color-link-visited   : $regent-st-blue;
 
 // Media Query Variables
 
-$brk-narrow:'(max-width: 768px)';
-$brk-wide: '(max-width: 1024)';
+//$brk-narrow:'(max-width: 768px)';
+$brk-wide: 768px;
 
         //Typography Variables 
-// Px  Value Variables
+
+        // Px  Value Variables
 $margin-left-value: 20px;
 $padding-left-value: 20px;
+
 // Font weight Variables
 $font-weight: 300px;
 
-
-
+//lighten color functions
+$sec-color-lighten: lighten($secondary-color, 15%);
+$err-color-lighten: lighten($error, 25%);
+$info-color-lighten: lighten($info, 25%);
+$warning-color-lighten: lighten($warning, 25%);
+$success-color-lighten: lighten($success, 25%);
