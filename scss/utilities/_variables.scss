@@ -6,11 +6,11 @@ $grey           : #878787;
 $regent-st-blue : #add8e6;
 $river-bed      : #48525c;
 $yellow-orange  : #ffa949;
-
+$button-background-color: #51ddfc;
 
 // Functional color variables
 
-$color-prim     :$yellow-orange;
+$color-prim     :#58e1c1;
 $color-sec      :$river-bed;
 
 $color-text-light   :$white;
@@ -20,6 +20,8 @@ $color-text-dark    :$river-bed;
 $color-border-light   : lighten($grey, 35%);
 $color-border-dark    : $yellow-orange;
 
+
+
 $color-link-default   : $yellow-orange;
 $color-link-visited   : $regent-st-blue;
 
@@ -27,3 +29,13 @@ $color-link-visited   : $regent-st-blue;
 
 $brk-narrow:'(max-width: 768px)';
 $brk-wide: '(max-width: 1024)';
+
+        //Typography Variables 
+// Px  Value Variables
+$margin-left-value: 20px;
+$padding-left-value: 20px;
+// Font weight Variables
+$font-weight: 300px;
+
+
+

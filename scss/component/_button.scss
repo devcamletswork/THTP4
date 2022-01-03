@@ -13,7 +13,7 @@
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $button-background-color;
   }
   
   .error {
@@ -32,3 +32,6 @@
     background-color: #fd7856;
   }
   
+  button:hover {
+    background-color  :lighten($button-background-color, 25%);
+  }
